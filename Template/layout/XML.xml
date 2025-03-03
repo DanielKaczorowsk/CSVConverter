@@ -1,0 +1,10 @@
+		<table border="1">
+			@startforeach name=CSVXML
+			<tr>
+				<th>{foreach-Name}</th>
+			</tr>
+			<tr>
+				<td>{foreach-Surname}</td>
+			</tr>
+			@endforeach
+		</table>
